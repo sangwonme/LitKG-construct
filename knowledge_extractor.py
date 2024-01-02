@@ -7,8 +7,8 @@ class TextProcessor:
         # Load the SpaCy model
         self.nlp = spacy.load("en_core_web_sm")
 
-    # Function to extract noun phrases with their references
-    def extract_noun_phrases_with_references(self, abstracts):
+    # Function to extract noun phrases with their locations
+    def extract_noun_phrases_with_locations(self, abstracts):
         noun_phrases = defaultdict(list)
         for paper_index, abstract in enumerate(abstracts):
             doc = self.nlp(abstract)
@@ -40,9 +40,9 @@ class TFIDFManager:
 
         # Filter noun phrases based on tf-idf score
         filtered_noun_phrases = {}
-        for np, references in noun_phrases.items():
+        for np, locations in noun_phrases.items():
             if np in max_tfidf_scores and max_tfidf_scores[np] > 0.0:
-                filtered_noun_phrases[np] = references
+                filtered_noun_phrases[np] = locations
         return filtered_noun_phrases
 
 class KnowledgeExtractor:
@@ -52,14 +52,14 @@ class KnowledgeExtractor:
 
     # Function to extract and filter knowledge elements
     def extract_knowledge_elements(self, abstracts):
-        noun_phrases = self.text_processor.extract_noun_phrases_with_references(abstracts)
+        noun_phrases = self.text_processor.extract_noun_phrases_with_locations(abstracts)
         tfidf_matrix, _ = self.tfidf_manager.compute_tfidf(abstracts)
         filtered_noun_phrases = self.tfidf_manager.filter_noun_phrases(noun_phrases, tfidf_matrix)
 
         knowledge_elements = []
-        for np, references in filtered_noun_phrases.items():
+        for np, locations in filtered_noun_phrases.items():
             knowledge_elements.append({
-                'element': np,
-                'references': references
+                'keyword': np,
+                'locations': locations
             })
         return knowledge_elements

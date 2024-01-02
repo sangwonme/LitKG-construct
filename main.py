@@ -1,5 +1,6 @@
 import json
 from knowledge_extractor import KnowledgeExtractor
+from bert_embeddor import BERTEmbeddor
 
 # Parameters
 PAPER_NUM = 30
@@ -19,7 +20,11 @@ extractor = KnowledgeExtractor()
 knowledge_elements = extractor.extract_knowledge_elements(abstract_data[:PAPER_NUM])
 
 # Add BERT embedding attribute for all knowledge elements
-# TODO
+embeddor = BERTEmbeddor()
+for element in knowledge_elements:
+    element['bert'] = embeddor.get_embedding(element['keyword'])
 
 # Graph Construction with calculating links
 # TODO
+
+import pdb; pdb.set_trace()
