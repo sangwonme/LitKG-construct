@@ -1,29 +1,25 @@
-import spacy
-import networkx as nx
-import numpy as np
-from transformers import BertTokenizer, BertModel
-from sklearn.metrics.pairwise import cosine_similarity
-import pickle
+import json
+from knowledge_extractor import KnowledgeExtractor
 
-# Load models
-nlp = spacy.load("en_core_web_sm")
-model_file = './cache/model.pkl'
-tokenizer_file = './cache/tokenizer.pkl'
-with open(model_file, 'rb') as f:
-    model = pickle.load(f)
-with open(tokenizer_file, 'rb') as f:
-    tokenizer = pickle.load(f)
+# Parameters
+PAPER_NUM = 30
 
-# Load Abstract data
-# 3D List: Papers -> Abstract Sentences -> Words
-# TODO
+# File Path
+DATA_PATH = './data/data1.json'
+
+# Load Paper data
+with open(DATA_PATH, encoding='utf-8') as file:
+    data = json.load(file)
 
 # Concat All Abstracts
-# TODO
-
+abstract_data = [data[i]['abstract'] if data[i]['abstract'] else '' for i in range(len(data))]
 
 # Extract Knowledge Elements and its location
+extractor = KnowledgeExtractor()
+knowledge_elements = extractor.extract_knowledge_elements(abstract_data[:PAPER_NUM])
+
+# Add BERT embedding attribute for all knowledge elements
 # TODO
 
-
-# Ed
+# Graph Construction with calculating links
+# TODO
