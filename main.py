@@ -27,12 +27,12 @@ data = data[:PAPER_NUM]
 abstract_data = [data[i]['abstract'] if data[i]['abstract'] else '' for i in range(len(data))]
 
 # Classifying categories for each sentences
-# with open('cache/classification_result.pickle', 'rb') as file:
-#     classification_result = pickle.load(file)
-classifier = ZeroshotClassifier(categories=CATEGORIES, abstracts=abstract_data)
-classification_result = classifier.classification()
-with open('cache/classification_result.pickle', 'wb') as file:
-    pickle.dump(classification_result, file)
+with open('cache/classification_result.pickle', 'rb') as file:
+    classification_result = pickle.load(file)
+# classifier = ZeroshotClassifier(categories=CATEGORIES, abstracts=abstract_data)
+# classification_result = classifier.classification()
+# with open('cache/classification_result.pickle', 'wb') as file:
+#     pickle.dump(classification_result, file)
 print('Classification is done!')
 
 # Extract Knowledge Elements and its location

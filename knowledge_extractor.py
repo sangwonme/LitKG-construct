@@ -21,29 +21,36 @@ class TextProcessor:
 
 class TFIDFManager:
     def __init__(self):
-        self.vectorizer = TfidfVectorizer(stop_words='english')
+        # Include up to 3-word phrases
+        self.vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1, 3))
 
-    # Function to compute TF-IDF
     def compute_tfidf(self, docs):
         tfidf_matrix = self.vectorizer.fit_transform(docs)
         feature_names = self.vectorizer.get_feature_names_out()
         return tfidf_matrix, feature_names
 
-    # Function to filter noun phrases based on TF-IDF and stop words
     def filter_noun_phrases(self, noun_phrases, tfidf_matrix):
         max_tfidf_scores = defaultdict(float)
         feature_names = self.vectorizer.get_feature_names_out()
+
+        # Create a set of all n-grams in the feature names
+        feature_set = set(feature_names)
+
         for doc in range(tfidf_matrix.shape[0]):
             for word_idx in tfidf_matrix[doc, :].nonzero()[1]:
                 word = feature_names[word_idx]
                 max_tfidf_scores[word] = max(max_tfidf_scores[word], tfidf_matrix[doc, word_idx])
 
-        # Filter noun phrases based on tf-idf score
+        # Filter noun phrases based on tf-idf score and presence in feature set
         filtered_noun_phrases = {}
         for np, locations in noun_phrases.items():
-            if np in max_tfidf_scores and max_tfidf_scores[np] > 0.0:
+            # Normalize the noun phrase for comparison with TF-IDF features
+            normalized_np = ' '.join(np.split())
+            if normalized_np in feature_set and max_tfidf_scores[normalized_np] > 0.0:
                 filtered_noun_phrases[np] = locations
+
         return filtered_noun_phrases
+
 
 class KnowledgeExtractor:
     def __init__(self):
