@@ -36,6 +36,9 @@ class ZeroshotClassifier:
     # Classifier
     def classification(self):
         classification_result = []
+        categories_description = ''
+        for category in self.categories.keys():
+            categories_description += f'- {category}: {self.categories[category]} \n'
         for paper_index, abstract in enumerate(self.abstracts):
             messages = [
                 SystemMessage(
@@ -44,10 +47,7 @@ class ZeroshotClassifier:
                 HumanMessage(content=f"""
                 I will give you abstract of research paper.
                 Your role is to classify each sentence in one of following categories.
-                - Background: brief introduction to the motivation and point of departure
-                - Objective: what is expected to achieve by the study. It can be a survey or a review for a specific research topic, a significant scientific or engineering problem, or a demonstration for research theories or principles.
-                - Solution: presents the methods, models, or technologies employed in the research to achieve the research objectives
-                - Findings: a summary of the results
+                {categories_description}
 
                 Could you label all sentences in the abstract one by one please?
                 - Do not give the description just following answer
@@ -68,6 +68,5 @@ class ZeroshotClassifier:
             result = ast.literal_eval(result.content)
             classification_result.append(result)
             print('Paper', paper_index, 'classified.')
-            import pdb; pdb.set_trace()
             
         return classification_result
