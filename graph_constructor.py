@@ -20,9 +20,10 @@ class GraphConstructor:
             for j, element_j in enumerate(self.knowledge_elements):
                 if i < j:
                     weight = self.calculate_edge_weight(element_i, element_j)
-                    self.graph.add_edge(element_i['keyword'], element_j['keyword'], weight=weight)
+                    same_paper = any(loc_i[0] == loc_j[0] for loc_i in element_i['locations'] for loc_j in element_j['locations'])
+                    self.graph.add_edge(element_i['keyword'], element_j['keyword'], weight=weight, same_paper=same_paper)
 
-    def calculate_edge_weight(self, element_i, element_j, weight_similarity=0.5, weight_distance=0.5):
+    def calculate_edge_weight(self, element_i, element_j, weight_similarity=0.8, weight_distance=0.2):
         # Cosine similarity
         cos_sim = cosine_similarity(element_i['bert'], element_j['bert']).item()
 
@@ -34,6 +35,7 @@ class GraphConstructor:
                 if location_i[0] == location_j[0]:
                     tmp = abs(location_i[1] - location_j[1]) / 8
                     location_distance = min(location_distance, tmp)
+                    # TODO: I want to add edge 'same_paper'=True when location_i[0]==location_j[0] once
 
         # Weighted sum of cos_sim and location_distance
         # Adjust the weights as per your requirement
