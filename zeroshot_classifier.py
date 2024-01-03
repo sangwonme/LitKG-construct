@@ -11,12 +11,9 @@ class ZeroshotClassifier:
         # Load the SpaCy model
         self.nlp = spacy.load("en_core_web_sm")
         # Set up the turbo LLM
-        with open('api_key.txt','r') as file:
-            api_key = file.read()
         self.llm = ChatOpenAI(
             temperature=0,
             model_name='gpt-3.5-turbo',
-            openai_api_key=api_key
         )
         print('LLM setup is done!')
         # abstract data with splitted sentences
@@ -54,14 +51,15 @@ class ZeroshotClassifier:
 
                 Could you label all sentences in the abstract one by one please?
                 - Do not give the description just following answer
+                - Make sure that input's length and output's length should be same!
 
                 <Input Format>
-                ['sentence 1', 'sentence 2', ... , 'sentence N']
+                ['sentence 1', 'sentence 2', ... , 'sentence N'] (length of the input = N)
                 <Output Format>
                 ['category for sentence 1', 'category for sentence 2', '....']
 
                 <Abstract>
-                {str(abstract)}
+                {str(abstract)} (length = {len(abstract)})
                 """),
             ]
             print(abstract)
@@ -70,5 +68,6 @@ class ZeroshotClassifier:
             result = ast.literal_eval(result.content)
             classification_result.append(result)
             print('Paper', paper_index, 'classified.')
+            import pdb; pdb.set_trace()
             
         return classification_result

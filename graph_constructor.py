@@ -13,7 +13,7 @@ class GraphConstructor:
         for element in self.knowledge_elements:
             # Convert BERT embeddings to mean embeddings
             mean_embedding = torch.mean(element['bert'], dim=1).squeeze()
-            self.graph.add_node(element['keyword'], bert=mean_embedding.numpy(), locations=element['locations'])
+            self.graph.add_node(element['keyword'], bert=mean_embedding.numpy(), locations=element['locations'], category=element['category'])
 
         # Add edges with weights
         for i, element_i in enumerate(self.knowledge_elements):

@@ -2,7 +2,7 @@ import requests
 import json
 
 # query = "(cold -temperature) | flu"
-query = "Knowledge graph in research literature"
+query = "Knowledge Graph Visualization"
 fields = "title,year"
 
 url = f"http://api.semanticscholar.org/graph/v1/paper/search/bulk?query={query}&fields={fields}&year=2019-"
