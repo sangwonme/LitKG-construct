@@ -1,35 +1,39 @@
-from transformers import BertModel, BertTokenizer
-import torch
-from torch.nn.functional import cosine_similarity
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import HumanMessage, SystemMessage
 
-# Load pre-trained model tokenizer
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+# Set up the turbo LLM
+llm = ChatOpenAI(
+    temperature=0,
+    model_name='gpt-3.5-turbo',
+    openai_api_key='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'
+)
+print('setup llm -------------')
 
-# Load pre-trained model
-model = BertModel.from_pretrained('bert-base-uncased')
+messages = [
+    SystemMessage(
+        content="You are a helpful assistant that classify the sentences in given categories."
+    ),
+    HumanMessage(content=f"""
+    I will give you abstract of research paper.
+    Your role is to classify each sentence in one of following categories.
+    - Background: brief introduction to the motivation and point of departure
+    - Objective: what is expected to achieve by the study. It can be a survey or a review for a specific research topic, a significant scientific or engineering problem, or a demonstration for research theories or principles.
+    - Solution: presents the methods, models, or technologies employed in the research to achieve the research objectives
+    - Findings: a summary of the results
 
-# Function to get BERT embeddings
-def get_bert_embedding(text):
-    # Tokenize the text and convert to tensor
-    inputs = tokenizer(text, return_tensors='pt')
-    # Get the embeddings
-    with torch.no_grad():
-        outputs = model(**inputs)
-    # Extract the embeddings from the last hidden state
-    embeddings = outputs.last_hidden_state
-    # Pool the outputs into a mean vector
-    mean_embedding = embeddings.mean(dim=1)
-    return mean_embedding
+    Could you label all sentences in the abstract one by one please?
+    - Do not give the description just following answer
 
-# Texts
-text1 = "Your first text here."
-text2 = "Your second text here."
+    <Input Format>
+    ['sentence 1', 'sentence 2', ... , 'sentence N']
+    <Output Format>
+    ['category for sentence 1', 'category for sentence 2', '....']
 
-# Get embeddings
-embedding1 = get_bert_embedding(text1)
-embedding2 = get_bert_embedding(text2)
+    <Abstract>
+    {str(abstract)}
+    """),
+]
 
-# Calculate cosine similarity
-cos_sim = cosine_similarity(embedding1, embedding2)
+tmp = llm(messages)
 
-print("Cosine Similarity:", cos_sim.item())
+import pdb; pdb.set_trace()
