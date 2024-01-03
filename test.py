@@ -1,10 +1,35 @@
-# Test Knowledge_extractor
-from knowledge_extractor import KnowledgeExtractor
-abstracts = [
-    "Mining chemical-protein interactions between chemicals and proteins plays vital roles in biomedical tasks, such as knowledge graph, pharmacology, and clinical research. Although chemical-protein interactions can be manually curated from the biomedical literature, the process is difficult and time-consuming. Hence, it is of great value to automatically obtain the chemical-protein interactions from biomedical literature. Recently, the most popular methods are based on the neural network to avoid complex manual processing. However, the performance is usually limited because of the lengthy and complicated sentences. To address this limitation, we propose a novel model, Hierarchical Recurrent Convolutional Neural Network (HRCNN), to learn hidden semantic and syntactic features from sentence sub-sequences effectively. Our approach achieves an F-score of 65.56% on the CHEMPROT corpus and outperforms the state-of-the-art systems. The experimental results demonstrate that our approach can greatly alleviate the defect of existing methods due to the existence of long sentences.",
-    "With the rapid growth of social networks, their analysis plays an increasingly important role in marketing and research. This reveals the need for efficient and effective techniques for doing so. In certain problem domains (e.g. marketing and education), detecting clusters of users with similar characteristics allows for services to be targeted to specific communities. While a number of approaches have been proposed in the literature to this end, they suffer from scalability issues when analysing larger or more densely connected social networks. To cope with this scalability problem, a Genetic Algorithm (GA)-based approach for social network analysis is proposed in this paper, supported by a graph database to store the static relationships between the nodes, thus eliminating the computational cost of repeatedly searching the network. Thus, the novelty of this work is in the combination of GA-based approach with a graph database, which store data more effectively, which allows for global optimisation to take place. Additionally, the main advantage of the proposed approach is that it does not require a priori knowledge regarding the social network when performing the analysis. The GA-based approach is shown to have the best performance regarding the identification of communities, though also requiring higher execution times."
-]
-extractor = KnowledgeExtractor()
-knowledge_elements = extractor.extract_knowledge_elements(abstracts)
-for element in knowledge_elements:
-    print(element)
+from transformers import BertModel, BertTokenizer
+import torch
+from torch.nn.functional import cosine_similarity
+
+# Load pre-trained model tokenizer
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+
+# Load pre-trained model
+model = BertModel.from_pretrained('bert-base-uncased')
+
+# Function to get BERT embeddings
+def get_bert_embedding(text):
+    # Tokenize the text and convert to tensor
+    inputs = tokenizer(text, return_tensors='pt')
+    # Get the embeddings
+    with torch.no_grad():
+        outputs = model(**inputs)
+    # Extract the embeddings from the last hidden state
+    embeddings = outputs.last_hidden_state
+    # Pool the outputs into a mean vector
+    mean_embedding = embeddings.mean(dim=1)
+    return mean_embedding
+
+# Texts
+text1 = "Your first text here."
+text2 = "Your second text here."
+
+# Get embeddings
+embedding1 = get_bert_embedding(text1)
+embedding2 = get_bert_embedding(text2)
+
+# Calculate cosine similarity
+cos_sim = cosine_similarity(embedding1, embedding2)
+
+print("Cosine Similarity:", cos_sim.item())

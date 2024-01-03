@@ -1,39 +1,41 @@
-import spacy
 import networkx as nx
-import numpy as np
-from transformers import BertTokenizer, BertModel
+import torch
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Load models
-nlp = spacy.load("en_core_web_sm")
-bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-bert_model = BertModel.from_pretrained('bert-base-uncased')
+class GraphConstructor:
+    def __init__(self, knowledge_elements):
+        self.knowledge_elements = knowledge_elements
+        self.graph = nx.Graph()
+        self.create_graph()
 
-def get_bert_embedding(text):
-    # Tokenize and get BERT embeddings
-    # Returns a NumPy array of the embedding vector
-    pass
+    def create_graph(self):
+        # Add nodes
+        for element in self.knowledge_elements:
+            # Convert BERT embeddings to mean embeddings
+            mean_embedding = torch.mean(element['bert'], dim=1).squeeze()
+            self.graph.add_node(element['keyword'], bert=mean_embedding.numpy(), locations=element['locations'])
 
-def create_graph(text):
-    graph = nx.Graph()
-    doc = nlp(text)
+        # Add edges with weights
+        for i, element_i in enumerate(self.knowledge_elements):
+            for j, element_j in enumerate(self.knowledge_elements):
+                if i < j:
+                    weight = self.calculate_edge_weight(element_i, element_j)
+                    self.graph.add_edge(element_i['keyword'], element_j['keyword'], weight=weight)
 
-    # Process text and add nodes
-    for entity in doc.ents:
-        embedding = get_bert_embedding(entity.text)
-        graph.add_node(entity.text, embedding=embedding, references=entity.start_char)
+    def calculate_edge_weight(self, element_i, element_j, weight_similarity=0.5, weight_distance=0.5):
+        # Cosine similarity
+        cos_sim = cosine_similarity(element_i['bert'], element_j['bert']).item()
 
-    # Add edges based on cosine similarity and distance
-    for node1 in graph.nodes:
-        for node2 in graph.nodes:
-            if node1 != node2:
-                cos_sim = cosine_similarity(graph.nodes[node1]['embedding'], graph.nodes[node2]['embedding'])
-                distance = abs(graph.nodes[node1]['references'] - graph.nodes[node2]['references'])
-                weight = cos_sim - distance  # Example calculation
-                graph.add_edge(node1, node2, weight=weight)
+        # Distance between locations (example calculation)
+        location_distance = 1
+        for location_i in element_i['locations']:
+            for location_j in element_j['locations']:
+                # Update only when in same paper
+                if location_i[0] == location_j[0]:
+                    tmp = abs(location_i[1] - location_j[1]) / 8
+                    location_distance = min(location_distance, tmp)
 
-    return graph
-
-# Example usage
-my_text = "Your text goes here."
-knowledge_graph = create_graph(my_text)
+        # Weighted sum of cos_sim and location_distance
+        # Adjust the weights as per your requirement
+        weight = weight_similarity*cos_sim + weight_distance*(1-location_distance)
+        return weight

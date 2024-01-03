@@ -2,6 +2,7 @@ import os
 import torch
 import numpy as np
 from transformers import BertTokenizer, BertModel
+from torch.nn.functional import cosine_similarity
 
 class BERTEmbeddor:
     def __init__(self, model_name='bert-base-uncased', cache_dir='cache'):
@@ -26,4 +27,9 @@ class BERTEmbeddor:
         inputs = self.tokenizer(text, return_tensors='pt', truncation=True, max_length=512)
         with torch.no_grad():
             outputs = self.model(**inputs)
-        return outputs.last_hidden_state
+        # Extract the embeddings from the last hidden state
+        embeddings = outputs.last_hidden_state
+        # Pool the outputs into a mean vector
+        mean_embedding = embeddings.mean(dim=1)
+        return mean_embedding
+    
