@@ -1,5 +1,399 @@
 [
   {
+    "paperId": "d8f1e49b21e098116afba87daafcc16b45db7b15",
+    "url": "https://www.semanticscholar.org/paper/d8f1e49b21e098116afba87daafcc16b45db7b15",
+    "title": "Captivate! Contextual Language Guidance for Parent–Child Interaction",
+    "abstract": "To acquire language, children need rich language input. However, many parents find it difficult to provide children with sufficient language input, which risks delaying their language development. To aid these parents, we design Captivate!, the first system that provides contextual language guidance to parents during play. Our system tracks both visual and spoken language cues to infer targets of joint attention, enabling the real-time suggestion of situation-relevant phrases for the parent. We design our system through a user-centered process with immigrant families—a highly vulnerable yet understudied population—as well as professional speech language therapists. Next, we evaluate Captivate! on parents with children aged 1–3 to observe improvements in responsive language use. We share insights into developing contextual guidance technology for linguistically diverse families1.",
+    "venue": "International Conference on Human Factors in Computing Systems",
+    "year": 2022,
+    "authors": [
+      {
+        "authorId": "2051843915",
+        "name": "Taeahn Kwon"
+      },
+      {
+        "authorId": "46910346",
+        "name": "Minkyung Jeong"
+      },
+      {
+        "authorId": "2377320",
+        "name": "Eon-Suk Ko"
+      },
+      {
+        "authorId": "2109264127",
+        "name": "Youngki Lee"
+      }
+    ],
+    "citations": [
+      {
+        "paperId": "6569a77feb64e6adf1fa1992724610a32b4824fe",
+        "title": "Exploring the Nexus of Technology Availability, Child-Friendly Interface Design, Early Childhood Digital Literacy, Cognitive Skills, and Creativity in Language Learning in the Context of Banten Javanese Language"
+      },
+      {
+        "paperId": "61240121055c0177c23c896676777cd195bad82c",
+        "title": "Supporting ASL Communication Between Hearing Parents and Deaf Children"
+      },
+      {
+        "paperId": "a29a46d85048965590d8cf638e71d1c4dc793865",
+        "title": "Automated Detection of Joint Attention and Mutual Gaze in Free Play Parent-Child Interactions"
+      },
+      {
+        "paperId": "5abf941ad6d6ac7b113d359af87da86406b8fce7",
+        "title": "Hyper-personalizing Common Norms through Principled Bespoke Generation"
+      },
+      {
+        "paperId": "c1ac6cb8c9a891c91679f1a8fa683c796a1277de",
+        "title": "MathKingdom: Teaching Children Mathematical Language Through Speaking at Home via a Voice-Guided Game"
+      },
+      {
+        "paperId": "9310f61194a30d69b001471ca90560e2880a027b",
+        "title": "Bubbleu: Exploring Augmented Reality Game Design with Uncertain AI-based Interaction"
+      },
+      {
+        "paperId": "f66505c96e5a1bb53ae4f9e169c3ab4e8de6efa7",
+        "title": "Play—An essential part of children’s lives and their computational empowerment"
+      },
+      {
+        "paperId": "6f9da267c9fb8343c0e8ea9ee518f5cc504cb0dc",
+        "title": "Context-responsive ASL Recommendation for Parent-Child Interaction"
+      },
+      {
+        "paperId": "7bb5502194f29589d973ca32b3efc338b65a2ca0",
+        "title": "“Out of Sight, Out of Mind” Comparing Deaf and Hard of Hearing Child’s Response to ASL Recommendation Systems"
+      }
+    ],
+    "references": [
+      {
+        "paperId": "b8d4c5059190905d37ab37751367c0ff33d82ebd",
+        "title": "Evaluating the Language ENvironment Analysis System for Korean."
+      },
+      {
+        "paperId": "19960230a5b644464b1e9899cdbceebc6c89af56",
+        "title": "Dyadic Mirror"
+      },
+      {
+        "paperId": "fc66f8873e552a9b12a820892a34d6701e88195a",
+        "title": "Language abilities of children with refugee backgrounds: Insights from case studies"
+      },
+      {
+        "paperId": "8e534cb1d574de5cec99f3831c373c2de18b6f80",
+        "title": "RetinaFace: Single-Shot Multi-Level Face Localisation in the Wild"
+      },
+      {
+        "paperId": "ea168d8d4bb27a6e5bd2e0de963a06c6a2616a1d",
+        "title": "MAMAS: Supporting Parent--Child Mealtime Interactions Using Automated Tracking and Speech Recognition"
+      },
+      {
+        "paperId": "80183519a1e9c67b6996bea274cd5e6c251e6683",
+        "title": "Augmented Reality to Enable Users in Learning Case Grammar from Their Real-World Interactions"
+      },
+      {
+        "paperId": "219b7266ae848937da170c5510b2bfc66d17859a",
+        "title": "Racial disparities in automated speech recognition"
+      },
+      {
+        "paperId": "95bdf80c6d53003374694eea9707a1d20ac93195",
+        "title": "Detecting Attended Visual Targets in Video"
+      },
+      {
+        "paperId": "20de7e7c4c69bd04dc0cae78719edc75b2970b64",
+        "title": "Providence talks: A citywide partnership to address early childhood language development"
+      },
+      {
+        "paperId": "747eee243339e531fc25432ba414f4d131bc9792",
+        "title": "Háblame Bebé: A phone application intervention to support Hispanic children’s early language environments and bilingualism"
+      },
+      {
+        "paperId": "478282f3ae1b0cfe65f6fb3ce3149b51d316e71c",
+        "title": "VocaBura: A Method for Supporting Second Language Vocabulary Learning While Walking"
+      },
+      {
+        "paperId": "e9758677bcfeb77c1bf93e193dc1782337ca6472",
+        "title": "A systematic review of context-aware technology use in foreign language learning"
+      },
+      {
+        "paperId": "c1bb6aa71f1a2e7be7ab4a16009f5dfd1246b6b3",
+        "title": "A Needs Analysis of Mothers from Multicultural Family for Child Language Development Screening Tests: Using Focus Group Interview"
+      },
+      {
+        "paperId": "74cf365345eb16865ff40cebcd4629fd3ffc67d0",
+        "title": "Communication disorders among Syrian refugee children in Beqaa, Lebanon"
+      },
+      {
+        "paperId": "adb460f06625202e3a6de77b734e103be2dc8b08",
+        "title": "A thorough evaluation of the Language Environment Analysis (LENA) system"
+      },
+      {
+        "paperId": "e3f773895a3769bb8a7745b033d96704fd962c3e",
+        "title": "A Semantics-based Model for Predicting Children's Vocabulary"
+      },
+      {
+        "paperId": "94f117d61986ad6f878c4e3f7da5e7353d52943c",
+        "title": "SpecialTime: Automatically Detecting Dialogue Acts from Speech to Support Parent-Child Interaction Therapy"
+      },
+      {
+        "paperId": "6e855a0dff6751e2b03d41cb3921d1fff1613ce3",
+        "title": "Socioeconomic Disparities in Language Input Are Associated With Children's Language-Related Brain Structure and Reading Skills."
+      },
+      {
+        "paperId": "ba8ba1c23a68304ac9c6cf937dfb32bfaccd0842",
+        "title": "Language Matters: Denying the Existence of the 30-Million-Word Gap Has Serious Consequences."
+      },
+      {
+        "paperId": "f61635518e99d756ff5ecc76fe18723fd40f86db",
+        "title": "Language Exposure Relates to Structural Neural Connectivity in Childhood"
+      },
+      {
+        "paperId": "49aa3e9ea0d68358d63d114b7909ce550c4e3558",
+        "title": "Beyond the 30-Million-Word Gap: Children’s Conversational Exposure Is Associated With Language-Related Brain Function"
+      },
+      {
+        "paperId": "046fb2f613dc9e1ba4325557b3274e58df6af551",
+        "title": "Mapping the Early Language Environment Using All-Day Recordings and Automated Analysis."
+      },
+      {
+        "paperId": "603f037151856b1c1b67a8e16e0f268297bb6882",
+        "title": "TalkLIME: mobile system intervention to improve parent-child interaction for children with language delay"
+      },
+      {
+        "paperId": "20b175976ef729338a5feba0f79f48c42ba2a8d9",
+        "title": "Influence of language nutrition on children’s language and cognitive development: An integrated review"
+      },
+      {
+        "paperId": "1588eecb7dc32c50a09398585dfc195ad32225d5",
+        "title": "Changing Family Practices with Assistive Technology: MOBERO Improves Morning and Bedtime Routines for Children with ADHD"
+      },
+      {
+        "paperId": "424561d8585ff8ebce7d5d07de8dbf7aae5e7270",
+        "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+      },
+      {
+        "paperId": "4e687940d6caa51595765b97026256c05afe0608",
+        "title": "Designing AAC Research and Intervention to Improve Outcomes for Individuals with Complex Communication Needs"
+      },
+      {
+        "paperId": "81aa6ade139c0aa69e92efd5bfe252e6b428d0ff",
+        "title": "Randomized controlled trial of parental responsiveness intervention for toddlers at high risk for autism."
+      },
+      {
+        "paperId": "6f58c3edb8312c7f9732f8592b91fd8052bc16e8",
+        "title": "Infants Learn What They Want to Learn: Responding to Infant Pointing Leads to Superior Learning"
+      },
+      {
+        "paperId": "788e0b1e42f4d40ed8d4b18371d631b4fbdd5bc2",
+        "title": "An Introduction to Language"
+      },
+      {
+        "paperId": "e6ee1b6ac413f4737d5ba0259a841f66b7a3eba3",
+        "title": "In situ cues for ADHD parenting strategies using mobile technology"
+      },
+      {
+        "paperId": "7a0685c6d14ac1b047779146b435355798a145eb",
+        "title": "The slower the better? Does the speaker's speech rate influence children's performance on a language comprehension test?"
+      },
+      {
+        "paperId": "95bd1fa452b5cc180dfb3a9ad2af40f506015b3f",
+        "title": "TalkBetter: family-driven mobile intervention care for children with language delay"
+      },
+      {
+        "paperId": "06ae22ec95f80bcce9d58bb4a704d85c1be86cdf",
+        "title": "Talking to Children Matters"
+      },
+      {
+        "paperId": "1a0ce15022577b31082c003c1ec4d818002b1249",
+        "title": "A Study on Selection of Basic Vocabularyfor Infants and Toddlers"
+      },
+      {
+        "paperId": "3577c14b3d08b5aecccb0be91151717d00af7d09",
+        "title": "Supporting Early Vocabulary Development: What Sort of Responsiveness Matters?"
+      },
+      {
+        "paperId": "d77dc94b2017b992740c31ab5fc6559054625a6d",
+        "title": "Parent–infant interaction and children’s language development"
+      },
+      {
+        "paperId": "64b4cc8552bcf5db1e96a0555cdb882c889d1c3c",
+        "title": "Quality of early parent input predicts child vocabulary 3 years later"
+      },
+      {
+        "paperId": "9a8e66702c0878bc51ff82273a945b044a61a3a4",
+        "title": "The hyperarticulation hypothesis of infant-directed speech*"
+      },
+      {
+        "paperId": "fcce098f2fbf1c71b1a9d508a9567f44c3be4781",
+        "title": "The contribution of two categories of parent verbal responsiveness to later language for toddlers and preschoolers on the autism spectrum."
+      },
+      {
+        "paperId": "8836e7327ef5d87f183611a9c5eacde8f2aeb85d",
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development."
+      },
+      {
+        "paperId": "7b2ee1cd45e69121b938ead226147f3d9166aad0",
+        "title": "What counts as effective input for word learning?*"
+      },
+      {
+        "paperId": "0ca200c25da115711637baf514a57b6b7827c18f",
+        "title": "The effectiveness of parent-implemented language interventions: a meta-analysis."
+      },
+      {
+        "paperId": "67fb947cdbb040cd5883e599aa29f33dd3241d3c",
+        "title": "Relation between language experiences in preschool classrooms and children's kindergarten and fourth-grade language and reading abilities."
+      },
+      {
+        "paperId": "aaff820a5982ced6aca181efc55386904abac30c",
+        "title": "Sources of variability in children’s language growth"
+      },
+      {
+        "paperId": "3e0a3b437a03b9c8871667ce803d96afba5ea30d",
+        "title": "Relationship between the cognitive environment and vocabulary development during the second year of life."
+      },
+      {
+        "paperId": "13477a6131a85b0c822b09319c8a690c18ccc8bf",
+        "title": "Automated vocal analysis of naturalistic recordings from children with autism, language delay, and typical development"
+      },
+      {
+        "paperId": "8865e9fec40466fa2845b895861bb676cc5c1cc3",
+        "title": "Maternal responsivity predicts language development in young children with fragile X syndrome."
+      },
+      {
+        "paperId": "8dbcbddb38b0638394d0a90da7bae1113e8437dc",
+        "title": "Human Social Attention"
+      },
+      {
+        "paperId": "7c5f1d47097565bce783a9c01930f4ed0977a0ae",
+        "title": "Off to a good start?: vocabulary development and differences in early family and classroom experiences of children from native-Dutch and immigrant families in the Netherlands"
+      },
+      {
+        "paperId": "f743ef60638b23707f3a5741cdf9933f22dfe75d",
+        "title": "A Study on Expressive Vocabulary Abilityin Multicultural Family Children: Based on K-BNT-C"
+      },
+      {
+        "paperId": "d645aa837c03d513321e1371a13d3dd252e7d7a7",
+        "title": "Cumulative Social Risk, Parenting, and Infant Development in Rural Low-Income Communities"
+      },
+      {
+        "paperId": "63db161c1b944fe896ecf18bc375d1d657639a27",
+        "title": "Child-directed speech: relation to socioeconomic status, knowledge of child development and child vocabulary skill*"
+      },
+      {
+        "paperId": "7f56e252f3200c656e8b1bcf539f4a4a043c4e93",
+        "title": "Growth of infant communication between 8 and 12 months: A population study"
+      },
+      {
+        "paperId": "0190645d6d3e867dd3dbb81cc2b1eca450a19c27",
+        "title": "How social contexts support and shape language development"
+      },
+      {
+        "paperId": "6dc120fbd7120d6adc8f906a92f679c6a13dfcab",
+        "title": "Maternal correlates of growth in toddler vocabulary production in low-income families."
+      },
+      {
+        "paperId": "c70681bb93f693590cfe9721d277fdfe1b8ec6a8",
+        "title": "Caregivers' contingent comments to 9-month-old infants: Relationships with later language"
+      },
+      {
+        "paperId": null,
+        "title": "An association between mothers’ speech clarity and infants’ speech discrimination skills"
+      },
+      {
+        "paperId": "2e7aff168e51acc329f2050e2f80ae193ee742cb",
+        "title": "How children use input to acquire a lexicon."
+      },
+      {
+        "paperId": "6b96fecadd9d12ee18bcdd1fb29d1847bf873117",
+        "title": "Early intentional communication as a predictor of language development in young toddlers"
+      },
+      {
+        "paperId": "f4a6f8da75ff1db82f81673d049465e742d1dbec",
+        "title": "Meaningful Differences in the Everyday Experience of Young American Children"
+      },
+      {
+        "paperId": "7d0049cfca5e87f19c0ae961f3390a9a17c478c0",
+        "title": "Words and Things"
+      },
+      {
+        "paperId": "88a42e1b26d678341aa039c179330e036a7b7d6a",
+        "title": "First Language Acquisition: Method, Description, and Explanation"
+      },
+      {
+        "paperId": "6214f157f47bc15d4ee5ec05ad955105a1c383de",
+        "title": "Culture and Language as Factors in Learning and Education."
+      },
+      {
+        "paperId": null,
+        "title": "ATrainingtoPromoteEarlyLanguageInteractions AmongRefugeeMothersWhoAreSpeakersofLanguagesOtherThanEnglish"
+      },
+      {
+        "paperId": null,
+        "title": "DyadicMirror:Everyday Second-Person Live-View for Empathetic Reflection upon Parent-Child Inter-action"
+      },
+      {
+        "paperId": null,
+        "title": "Survey of foreign residents in Korea"
+      },
+      {
+        "paperId": null,
+        "title": "National Survey of Multicultural Families"
+      },
+      {
+        "paperId": null,
+        "title": "Republic of Korea Ministry of Gender Equality and Family"
+      },
+      {
+        "paperId": "024ecb49777b7124e00a8bf618a1dd85240fa52f",
+        "title": "Evidence-Based Strategies for Improving Children’s Vocabulary Knowledge"
+      },
+      {
+        "paperId": "baa5b5a30537204fcc6b7ce19a7a1b7ebd7c028c",
+        "title": "The language aspect of the children in multi-cultural families according to the language use of their mother"
+      },
+      {
+        "paperId": "836c8758108fa87e97924e08d72b6378db22221d",
+        "title": "Early Warning! Why Reading by the End of Third Grade Matters. KIDS COUNT Special Report."
+      },
+      {
+        "paperId": "7e9db4ddfd6a86d3ab36da133c9c7df500e8e2b1",
+        "title": "Preliminary Study on Language Characteristics and Related Family Factors in Childrenfrom Multicultural Family"
+      },
+      {
+        "paperId": "97ab95fcc20edb5be78573493047c35a888cdf43",
+        "title": "The power to talk"
+      },
+      {
+        "paperId": "61a03de23c36ca308c47e2253e3efba10201faa7",
+        "title": "Meaningful differences in the everyday experience of young American children"
+      },
+      {
+        "paperId": "b1a855e96f229724896077aeb879c981842a4774",
+        "title": "A Study on the Language Development and Environment of Children from Internationally Married Couple Living in an Agricultural Village"
+      },
+      {
+        "paperId": "d13aec9c7f75ec77d43b052c5407562a1ad0c6d5",
+        "title": "Mothers’ attuned responses to infant affect expressivity promote earlier achievement of language milestones"
+      },
+      {
+        "paperId": "34b59bb6a2c9ebfbcda34c5e9948177e855b6c27",
+        "title": "Joint attention : its origins and role in development"
+      },
+      {
+        "paperId": "3eb919706dbcc8443c5716123fcb7df5fe1e9178",
+        "title": "Beijing People’s Republic of China"
+      },
+      {
+        "paperId": null,
+        "title": "Captivate! Contextual Language Guidance for Parent–Child Interaction"
+      },
+      {
+        "paperId": null,
+        "title": "CHI ’22, April 29-May 5, 2022"
+      },
+      {
+        "paperId": null,
+        "title": "B ADDITIONAL FIGURES We include additional figures about our experimental setup (Figures 13, 14)"
+      }
+    ]
+  },
+  {
     "paperId": "25598f10b3c66f02a7ba58e3d628496fb588cb70",
     "url": "https://www.semanticscholar.org/paper/25598f10b3c66f02a7ba58e3d628496fb588cb70",
     "title": "OP0158-HPR THE FALL PREVENTION PROGRAMME ‘SICHER DURCH DEN ALLTAG’ IS EFFECTIVE AND COST-EFFECTIVE",

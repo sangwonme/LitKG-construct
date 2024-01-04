@@ -16,23 +16,26 @@ CATEGORIES = {
 }
 
 # File Path
-DATA_PATH = './data/data1.json'
+DATA_PATH = './data/data.json'
 
 # Load Paper data
 with open(DATA_PATH, encoding='utf-8') as file:
     data = json.load(file)
-data = data[:PAPER_NUM]
+data = data[:min(PAPER_NUM, len(data))]
 
 # Concat All Abstracts
 abstract_data = [data[i]['abstract'] if data[i]['abstract'] else '' for i in range(len(data))]
 
+# HOTFIX: filter abstract_data with proper text length
+abstract_data_filtered = [abstract for abstract in abstract_data if len(abstract) <= 1200]
+
 # Classifying categories for each sentences
-with open('cache/classification_result.pickle', 'rb') as file:
-    classification_result = pickle.load(file)
-# classifier = ZeroshotClassifier(categories=CATEGORIES, abstracts=abstract_data)
-# classification_result = classifier.classification()
-# with open('cache/classification_result.pickle', 'wb') as file:
-#     pickle.dump(classification_result, file)
+# with open('cache/classification_result.pickle', 'rb') as file:
+#     classification_result = pickle.load(file)
+classifier = ZeroshotClassifier(categories=CATEGORIES, abstracts=abstract_data)
+classification_result = classifier.classification()
+with open('cache/classification_result.pickle', 'wb') as file:
+    pickle.dump(classification_result, file)
 print('Classification is done!')
 
 # Extract Knowledge Elements and its location

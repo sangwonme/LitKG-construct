@@ -1,11 +1,16 @@
 import json
 import requests
+import os
 
 class PaperCrawler:
     def __init__(self, base_url="http://api.semanticscholar.org/graph/v1"):
         self.base_url = base_url
 
     def search_papers(self, query, fields, year_range="2019-", output_file="./data/papers.jsonl"):
+        # Remove output_file if exists
+        if os.path.exists(output_file):
+            os.remove(output_file)
+
         if isinstance(query, list):
             for q in query:
                 self._search_single_query(q, fields, year_range, output_file)
@@ -19,7 +24,7 @@ class PaperCrawler:
         print(f"Will retrieve an estimated {response['total']} documents for query: {query}")
         retrieved = 0
 
-        with open(output_file, "w") as file:
+        with open(output_file, "a") as file:
             while True:
                 if "data" in response:
                     retrieved += len(response["data"])
