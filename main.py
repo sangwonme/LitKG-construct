@@ -8,7 +8,6 @@ from zeroshot_classifier import ZeroshotClassifier
 
 # Parameters
 PAPER_NUM = 30
-THRESHOLD = 0.8
 CATEGORIES = {
     'Background': 'brief introduction to the motivation and point of departure',
     'Objective': 'what is expected to achieve by the study. It can be a survey or a review for a specific research topic, a significant scientific or engineering problem, or a demonstration for research theories or principles.',

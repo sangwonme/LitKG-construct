@@ -35,8 +35,8 @@ class GraphConstructor:
                 if location_i[0] == location_j[0]:
                     tmp = abs(location_i[1] - location_j[1]) / 8
                     location_distance = min(location_distance, tmp)
-                    # TODO: I want to add edge 'same_paper'=True when location_i[0]==location_j[0] once
-
+                    
+                    
         # Weighted sum of cos_sim and location_distance
         # Adjust the weights as per your requirement
         weight = weight_similarity*cos_sim + weight_distance*(1-location_distance)

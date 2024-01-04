@@ -1,0 +1,308 @@
+[
+  {
+    "paperId": "25598f10b3c66f02a7ba58e3d628496fb588cb70",
+    "url": "https://www.semanticscholar.org/paper/25598f10b3c66f02a7ba58e3d628496fb588cb70",
+    "title": "OP0158-HPR THE FALL PREVENTION PROGRAMME ‘SICHER DURCH DEN ALLTAG’ IS EFFECTIVE AND COST-EFFECTIVE",
+    "abstract": "Falls in older people are frequent and have often severe health consequences. Reinforced by population ageing, they represent a substantial challenge for health care systems. Falls are often due to a combination of intrinsic and extrinsic risk factors. For these reasons, the Swiss League Against Rheumatism (SLAR) developed the multidimensional, home-based fall prevention programme ‘Sicher durch den Alltag’ (‘Safely Through Everyday Life’). The programme has been implemented nationwide since 2013 and is financed by selected health insurance companies. Trained physiotherapists (PTs) or occupational therapists (OTs) visit the senior at home for a 60-90 minutes session. They perform a detailed assessment of the senior’s individual risk of falling and subsequently eliminate identified environmental risk factors and provide tailored exercises. After 4 weeks, the PT/OT calls the senior to discuss further needs. The cost of the intervention is at 500 Swiss Francs (approximately 460 Euro) per senior.Assess the effectiveness and cost-effectiveness of this fall prevention programme.A prospective, longitudinal observational study was performed. Baseline study data was assessed at the home visit, including the self-reported number of falls during a) the year and b) the month before the visit. The participants of the programme were monitored for one year after the home visit by bi-monthly telephone calls. Participants were asked to report the falls that they continuously documented in a diary. Questionnaires administered orally included the Falls Efficacy Scale-International (FES-I), a Quality of Life Questionnaire (EQ-5D-5L), and the amount of moderately intensive physical activity (PA).To compare the falls during the years before and after the home visit, the mean number of falls before the visit was calculated based on reported falls during a) the year and b) the month (multiplied by 12) before the visit. A 2:1 weighted mean from a) and b) was calculated, considering that retrospective reporting over one year or over one month may underestimate or overestimate, respectively, the number of falls. Statistical analysis fitted a GEE-Poisson-Modell (Generalized Estimating Equations) to the data for number of falls and a Linear Mixed Model (LMM) for fear of falling, quality of life and PA. Falls related health care spending in the years before and after the intervention were compared based on health insurance claims data.Overall, 639 person-years of observation time were available for analysis. Participants were mainly female (59%) and had a mean age of 81.8+/- 5.2 years. On average, rate of falling decreased from 1.35 to 1.02 per person year (-23.9%), fear of falling decreased by -1.27 (95%CI -1.50, -1.05), quality of life improved by -0.88 (95%CI -1.09, -0.68), PA increased by 9.87 minutes per day (95%CI 5.65, 14.09). Health insurance claims data showed a 48.0% reduction (95%CI 30.5%, 61.0%) of medically treated falls. The average cost per prevented medically treated fall was estimated at 1317 Swiss Francs (approximately 1200 Euro) and the probability of the intervention being cost-saving at 47%.This low-threshold fall prevention programme was found to be very effective and cost-effective. Home visits by trained PTs or OTs contribute substantially to reduce falls in the elderly. The high cost-effectiveness is explained by a substantial reduction of severe falls.[1]Swiss Council for Accident Prevention BFU (2019); https://www.bfu.ch/de/die-bfu/medien/statistik-der-nichtberufsunfaelle-1. Downloaded 15 Dec. 2020.[2]Kempen G et al. The Short FES-I: a shortened version of the falls efficacy scale-international to assess fear of falling. Age and Ageing, 37(1)[3]Herdman M et al. Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L). Qual Life Res. 2011;20(10):1727.[4]Craig CL et al: International physical activity questionnaire: 12-country reliability and validity. Medicine and science in sports and exercise 2003, 35(8):1381-1395None declared",
+    "venue": "",
+    "year": 2021,
+    "authors": [
+      {
+        "authorId": "2052747192",
+        "name": "K. N. Schneider"
+      },
+      {
+        "authorId": "3691344",
+        "name": "A. Meichtry"
+      },
+      {
+        "authorId": "7494881",
+        "name": "Barbara Zindel"
+      },
+      {
+        "authorId": "1994506",
+        "name": "B. Brunner"
+      },
+      {
+        "authorId": "152932754",
+        "name": "M. Ernst"
+      },
+      {
+        "authorId": "7359207",
+        "name": "V. Krafft"
+      },
+      {
+        "authorId": "13382392",
+        "name": "R. Mattli"
+      },
+      {
+        "authorId": "3476935",
+        "name": "I. Nast"
+      },
+      {
+        "authorId": "49425334",
+        "name": "M. Wirz"
+      },
+      {
+        "authorId": "48709110",
+        "name": "S. Wieser"
+      }
+    ],
+    "citations": [],
+    "references": []
+  },
+  {
+    "paperId": "3f54bf5bad7961421ab2c628e6e41e9c514d852d",
+    "url": "https://www.semanticscholar.org/paper/3f54bf5bad7961421ab2c628e6e41e9c514d852d",
+    "title": "Development of a brief, generic, modular resource-use measure (ModRUM): piloting with patients",
+    "abstract": null,
+    "venue": "BMC Health Services Research",
+    "year": 2023,
+    "authors": [
+      {
+        "authorId": "7949955",
+        "name": "K. Garfield"
+      },
+      {
+        "authorId": "2240665894",
+        "name": "Joanna C. Thorn"
+      },
+      {
+        "authorId": "2248620456",
+        "name": "Sian Noble"
+      },
+      {
+        "authorId": "2240660734",
+        "name": "Samantha Husbands"
+      },
+      {
+        "authorId": "2240643364",
+        "name": "Will Hollingworth"
+      }
+    ],
+    "citations": [],
+    "references": [
+      {
+        "paperId": "46eed8d28fa5db3fae8a277cff890fe10c75aaf8",
+        "title": "Unit Costs of Health & Social Care 2020"
+      },
+      {
+        "paperId": "dba33977600bc2840ec4ebbb4f7f603327b6e01b",
+        "title": "PNS48 DEVELOPMENT OF A BRIEF, GENERIC, MODULAR RESOURCE-USE MEASURE: QUALITATIVE INTERVIEWS WITH HEALTH ECONOMISTS"
+      },
+      {
+        "paperId": "fd1bd0dd49445fbbf0e6be820968d985c948287d",
+        "title": "The Multiple Sclerosis Health Resource Utilization Survey (MS-HRS): Development and Validation Study"
+      },
+      {
+        "paperId": "0c2824d55b0414f7b02c6a3a019a514b27d67d15",
+        "title": "Reablement services for people at risk of needing social care: the MoRe mixed-methods evaluation"
+      },
+      {
+        "paperId": "7fe35646cc938c1ba7e20159424d61ae89f7795f",
+        "title": "Consensus-based cross-European recommendations for the identification, measurement and valuation of costs in health economic evaluations: a European Delphi study"
+      },
+      {
+        "paperId": "0336d893a5025ed79da147eb320257df1609166c",
+        "title": "Core Items for a Standardized Resource Use Measure: Expert Delphi Consensus Survey"
+      },
+      {
+        "paperId": "1d4a4308bf34bd3c2d4a7c3521113041b6b4a11b",
+        "title": "Core items for a standardized resource-use measure (ISRUM)"
+      },
+      {
+        "paperId": "5d8ad5f2eafa059e6b2b5eeb014c23f9ac68fe3b",
+        "title": "A Terrible Beauty: A short history of NICE the National Institute for Health and Care Excellence"
+      },
+      {
+        "paperId": "ec5079bd3f99d50686969b42cf362eb86bc6153f",
+        "title": "Patterns of multimorbidity and their association with health outcomes within Yorkshire, England: baseline results from the Yorkshire Health Study"
+      },
+      {
+        "paperId": "af6e1e3fd06a2d0ef253ca25985d9429bf2d29a9",
+        "title": "The exchangeability of self-reports and administrative health care resource use measurements: assessement of the methodological reporting quality."
+      },
+      {
+        "paperId": "f2b772140a52d6c7d3528c1c84fdefb86a3e1b19",
+        "title": "Identification Of Items For A Standardised Resource-Use Measure: Review Of Current Instruments."
+      },
+      {
+        "paperId": "4d0548f2b3962bd24a01fddecb8cc0a482a1d140",
+        "title": "Interim scoring for the EQ-5D-5L: mapping the EQ-5D-5L to EQ-5D-3L value sets."
+      },
+      {
+        "paperId": "ffb02db73911db24c85114ff1cb39ea3c611be14",
+        "title": "Measurement in Medicine: A Practical Guide"
+      },
+      {
+        "paperId": "ef5f79d23d66838eba5e426449019ae4f0d254f7",
+        "title": "Effect of questionnaire length, personalisation and reminder type on response rate to a complex postal survey: randomised controlled trial"
+      },
+      {
+        "paperId": "ab52662a227d2b65a3126319bc62f217fe9ff96d",
+        "title": "Good agreement between questionnaire and administrative databases for health care use and costs in patients with osteoarthritis"
+      },
+      {
+        "paperId": "eac9c263d99f397dfc2518ac55f610130aac32a7",
+        "title": "Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L)"
+      },
+      {
+        "paperId": "15dbdb69dfdc940a48e1037d512b4c54c169a3e0",
+        "title": "Catalogue of EQ-5D Scores for the United Kingdom"
+      },
+      {
+        "paperId": "87adfe4a3ea649ef8b25033faad767bfa83700b9",
+        "title": "Methods for the collection of resource use data within clinical trials: a systematic review of studies funded by the UK Health Technology Assessment program."
+      },
+      {
+        "paperId": "14cb519bf8af85336677e5bf159110cda8ee50dc",
+        "title": "The COSMIN study reached international consensus on taxonomy, terminology, and definitions of measurement properties for health-related patient-reported outcomes."
+      },
+      {
+        "paperId": "ce4b457477a3babbe8b2839f9d62b83e86026a59",
+        "title": "Comparison of alternative methods of collection of service use data for the economic evaluation of health care interventions."
+      },
+      {
+        "paperId": "196c87eff13fe8073ccedc829cdd723ef13280d4",
+        "title": "Measuring and Valuing Health Benefits for Economic Evaluation"
+      },
+      {
+        "paperId": "dc1b41410213ffc5873ba35550bff714105a912d",
+        "title": "A comparison of two methods of collecting economic data in primary care."
+      },
+      {
+        "paperId": "98707470a083062a74293844399c86b2ebcf4098",
+        "title": "Development of resource-use and expenditure questionnaires for use in rheumatology research."
+      },
+      {
+        "paperId": "5494bebc17dbf5cb07be905c76d8c89e9c1b363a",
+        "title": "Methodological Commentary The Precision of Reliability and Validity Estimates Re-Visited: Distinguishing Between Clinical and Statistical Significance of Sample Size Requirements"
+      },
+      {
+        "paperId": "79cecdf3e6d949dbbc4d5b407025e38be38c7225",
+        "title": "Capturing health care utilization after occupational low-back pain: development of an interviewer-administered questionnaire."
+      },
+      {
+        "paperId": "3baa1933e222a6080b892ddee55488d8906bc7e4",
+        "title": "Health measurement scales"
+      },
+      {
+        "paperId": "31eb89094e8cb98f9dd2efba9ff9da8471da007a",
+        "title": "Health measurement scales: a practical guide to their development and use (5th edition)."
+      },
+      {
+        "paperId": "eb10048939fd9a8ca85ebfac813e4f6ec25ea240",
+        "title": "A concordance correlation coefficient to evaluate reproducibility."
+      },
+      {
+        "paperId": "9ca3e74948b1accaa018696fda1c3e1dd3b3a325",
+        "title": "STATISTICAL METHODS FOR ASSESSING AGREEMENT BETWEEN TWO METHODS OF CLINICAL MEASUREMENT"
+      },
+      {
+        "paperId": null,
+        "title": "ModRUM-modular resource-use measure"
+      },
+      {
+        "paperId": null,
+        "title": "NHS England and NHS Improvement"
+      },
+      {
+        "paperId": null,
+        "title": "Self-reported and routinely collected electronic healthcare resource-use data for trial-based economic evaluations: the Page 10 of 10 Garfield et al. BMC Health Services Research"
+      },
+      {
+        "paperId": null,
+        "title": "Public"
+      },
+      {
+        "paperId": null,
+        "title": "National General Practice Profiles"
+      },
+      {
+        "paperId": "c079e1d90527b819e40614545639f2f8ceb5c6ec",
+        "title": "Health Measurement Scales A Practical Guide To Their Development And Use"
+      },
+      {
+        "paperId": "651358a211769f0442befa56002a1b7243b504fc",
+        "title": "Long term Conditions Compendium of Information"
+      },
+      {
+        "paperId": null,
+        "title": "Medical Statistics. 2nd ed"
+      },
+      {
+        "paperId": "34b9635d7779e219e9d60e0d3d33919ca9bc123c",
+        "title": "Publisher's Note"
+      },
+      {
+        "paperId": null,
+        "title": "Malden: Blackwell Science"
+      },
+      {
+        "paperId": "1efc36b80e875d5fda838b895fde99e869442999",
+        "title": "The precision of reliability and validity estimates re-visited: distinguishing between clinical and statistical significance of sample size requirements."
+      },
+      {
+        "paperId": "6f369d5f0852753a708a67b189e5bf2ef531c06f",
+        "title": "Stata Statistical Software: Release 7."
+      },
+      {
+        "paperId": "47b704e68a22404d0cea07371dbbc8a6648c27a8",
+        "title": "Concordance correlation coefficient"
+      },
+      {
+        "paperId": "b086228f8bc5ee2e1342b9ea8398d5045f86c2f7",
+        "title": "Evaluating patient-based outcome measures for use in clinical trials."
+      },
+      {
+        "paperId": "d463073ca654ab4461738ce7c6483742ab78a8ad",
+        "title": "Costing psychiatric interventions."
+      },
+      {
+        "paperId": "67cb1ebf2886b325631ec63e343e09864853ef73",
+        "title": "Measuring mental health needs"
+      },
+      {
+        "paperId": null,
+        "title": "Position statement on use of the EQ-5D-5L value set for England"
+      },
+      {
+        "paperId": null,
+        "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations"
+      }
+    ]
+  },
+  {
+    "paperId": "fcde889e37da0d7689e3d54da7ceae7a9511453d",
+    "url": "https://www.semanticscholar.org/paper/fcde889e37da0d7689e3d54da7ceae7a9511453d",
+    "title": "Benjamin Harrison Awakens a Navy Anesthetized by America's Apathy and Complacency.",
+    "abstract": "Shulman et al. differences for health-related quality of life measures. COPD 2005; 2:63–7 19. Myles PS, Myles DB, Galagher W, Chew C, MacDonald N, Dennis A: Minimal clinically important difference for three quality of recovery scales. Anesthesiology 2016; 125:39–45 20. Wyrwich KW, Tierney WM, Wolinsky FD: Further evidence supporting an SEM-based criterion for identifying meaningful intra-individual changes in health-related quality of life. J Clin Epidemiol 1999; 52:861–73 21. Herdman M, Gudex C, Lloyd A, Janssen M, Kind P, Parkin D, Bonsel G, Badia X: Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L). Qual Life Res 2011; 20:1727–36 22. Streiner DL, Norman GR: Health Measurement Scales: A Practical Guide to Their Development and Use, 4th edition. New York, Oxford University Press, 2008, pp 1–423 23. Myles PS: Clinically important difference in quality of recovery scores. Anesth Analg 2016; 122:13–4",
+    "venue": "Anesthesiology",
+    "year": 2020,
+    "authors": [],
+    "citations": [
+      {
+        "paperId": "cd98c961450cda21cda1850023d8c3a39f87723d",
+        "title": "Defining the Minimal Clinically Important Difference and Patient-acceptable Symptom State Score for Disability Assessment in Surgical Patients"
+      }
+    ],
+    "references": [
+      {
+        "paperId": "218c6010577b1f7ce704484518f38c12420aa199",
+        "title": "Minimal Clinically Important Difference for Three Quality of Recovery Scales"
+      },
+      {
+        "paperId": "9d74c47c6b6eefcf4233c517446c911adafc1d13",
+        "title": "Further evidence supporting an SEM-based criterion for identifying meaningful intra-individual changes in health-related quality of life."
+      },
+      {
+        "paperId": "084fc9c35228350518956c098a992e0fef85d6f0",
+        "title": "Clinically Important Difference in Quality of Recovery Scores."
+      },
+      {
+        "paperId": null,
+        "title": "Development and preliminary testing of the new five - level version of EQ - 5 D ( EQ - 5 D - 5 L )"
+      }
+    ]
+  }
+]
