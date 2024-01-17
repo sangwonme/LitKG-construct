@@ -1,0 +1,1208 @@
+[
+  {
+      "refNo": 2,
+      "paperId": "34b269f154f6225e6527ecbe6be8a2b22d7473c1",
+      "title": "Design Card Sets: Systematic Literature Survey and Card Sorting Study",
+      "authors": [
+          {
+              "authorId": "1790919425",
+              "name": "Tessa Aarts"
+          },
+          {
+              "authorId": "66549240",
+              "name": "L. Gabrielaitis"
+          },
+          {
+              "authorId": "1805970804",
+              "name": "Lianne C. de Jong"
+          },
+          {
+              "authorId": "107791363",
+              "name": "Renee Noortman"
+          },
+          {
+              "authorId": "1396387974",
+              "name": "E. V. Zoelen"
+          },
+          {
+              "authorId": "1790912484",
+              "name": "Sophia Kotea"
+          },
+          {
+              "authorId": "87104226",
+              "name": "S. Cazacu"
+          },
+          {
+              "authorId": "1790941495",
+              "name": "Lesley L. Lock"
+          },
+          {
+              "authorId": "1753368",
+              "name": "P. Markopoulos"
+          }
+      ]
+  },
+  {
+      "refNo": 6,
+      "paperId": "4846388e6bdffa65489daa59d36fea88e9ac74c9",
+      "title": "Anarchy or Order on the Streets: Review Based Characterization of Location Based Mobile Games",
+      "authors": [
+          {
+              "authorId": "2084330",
+              "name": "Paula Alavesa"
+          },
+          {
+              "authorId": "1854339",
+              "name": "Minna Pakanen"
+          },
+          {
+              "authorId": "2220949",
+              "name": "Hannu Kukka"
+          },
+          {
+              "authorId": "2069163",
+              "name": "Matti Pouke"
+          },
+          {
+              "authorId": "144522420",
+              "name": "T. Ojala"
+          }
+      ]
+  },
+  {
+      "refNo": 9,
+      "paperId": "49a228187d8cc2ea7cb6e6017ab5b390af9cc525",
+      "title": "Making Sense of Human-Food Interaction",
+      "authors": [
+          {
+              "authorId": "46230840",
+              "name": "F. A. Bertran"
+          },
+          {
+              "authorId": "40965216",
+              "name": "S. Jhaveri"
+          },
+          {
+              "authorId": "2061416465",
+              "name": "Rosa Lutz"
+          },
+          {
+              "authorId": "1740889",
+              "name": "K. Isbister"
+          },
+          {
+              "authorId": "97349665",
+              "name": "D. Wilde"
+          }
+      ]
+  },
+  {
+      "refNo": 15,
+      "paperId": "6bdaa9f588e37bfcc0e4f1de0f8fb1ce99b92317",
+      "title": "Old wine in new bottles or novel challenges: a critical analysis of empirical studies of user experience",
+      "authors": [
+          {
+              "authorId": "1398140564",
+              "name": "Javier A. Bargas-Avila"
+          },
+          {
+              "authorId": "1679367",
+              "name": "K. Hornb\u00e6k"
+          }
+      ]
+  },
+  {
+      "refNo": 17,
+      "paperId": "0a651ea16e6f9a683aa27e3abe79389b06996cec",
+      "title": "Collaborative Technologies for Children with Special Needs: A Systematic Literature Review",
+      "authors": [
+          {
+              "authorId": "3440045",
+              "name": "G\u00f6k\u00e7e Elif Baykal"
+          },
+          {
+              "authorId": "2280077",
+              "name": "M. Mechelen"
+          },
+          {
+              "authorId": "98771650",
+              "name": "E. Eriksson"
+          }
+      ]
+  },
+  {
+      "refNo": 20,
+      "paperId": "52524c562e8030553339c770b1c229c9fdf39147",
+      "title": "Who Are You Asking?: Qualitative Methods for Involving AAC Users as Primary Research Participants",
+      "authors": [
+          {
+              "authorId": "102654672",
+              "name": "Erin Beneteau"
+          }
+      ]
+  },
+  {
+      "refNo": 23,
+      "paperId": "aecb7f35da3cf6cd3ef91219fb0854ef2110e34d",
+      "title": "Non-Rigid HCI: A Review of Deformable Interfaces and Input",
+      "authors": [
+          {
+              "authorId": "15329631",
+              "name": "Alberto Boem"
+          },
+          {
+              "authorId": "48442127",
+              "name": "G. M. Troiano"
+          }
+      ]
+  },
+  {
+      "refNo": 33,
+      "paperId": "a1f9f2e10171b09c86f6235964499fcef4cc7213",
+      "title": "Technology Developments in Touch-Based Accessible Graphics: A Systematic Review of Research 2010-2020",
+      "authors": [
+          {
+              "authorId": "50818787",
+              "name": "M. Butler"
+          },
+          {
+              "authorId": "32114644",
+              "name": "Leona Holloway"
+          },
+          {
+              "authorId": "1389225206",
+              "name": "Samuel Reinders"
+          },
+          {
+              "authorId": "2951143",
+              "name": "Cagatay Goncu"
+          },
+          {
+              "authorId": "143885729",
+              "name": "K. Marriott"
+          }
+      ]
+  },
+  {
+      "refNo": 34,
+      "paperId": "f314c209bfd1fa89a282d0ad1f9ea6b1e29072f1",
+      "title": "Local Standards for Sample Size at CHI",
+      "authors": [
+          {
+              "authorId": "1786759",
+              "name": "Kelly E. Caine"
+          }
+      ]
+  },
+  {
+      "refNo": 39,
+      "paperId": "fd3c464deb916013303a8aa8390f202790047ad3",
+      "title": "Situated Dissemination through an HCI Workplace",
+      "authors": [
+          {
+              "authorId": "27888189",
+              "name": "K. Chen"
+          },
+          {
+              "authorId": "143949555",
+              "name": "Rachel Clarke"
+          },
+          {
+              "authorId": "144694825",
+              "name": "Teresa Almeida"
+          },
+          {
+              "authorId": "145031417",
+              "name": "M. Wood"
+          },
+          {
+              "authorId": "2064541382",
+              "name": "David S. Kirk"
+          }
+      ]
+  },
+  {
+      "refNo": 49,
+      "paperId": "408a84fc2b72b57bc50d8273bae40b5398042c94",
+      "title": "The Ins and Outs of HCI for Development",
+      "authors": [
+          {
+              "authorId": "2875293",
+              "name": "Nicola Dell"
+          },
+          {
+              "authorId": "145315377",
+              "name": "Neha Kumar"
+          }
+      ]
+  },
+  {
+      "refNo": 51,
+      "paperId": "488a1eb8ead64a4776b8553d7aa16cba6fd93992",
+      "title": "Consistent but modest: a meta-analysis on unimodal and multimodal affect detection accuracies from 30 studies",
+      "authors": [
+          {
+              "authorId": "1383996606",
+              "name": "S. D\u2019Mello"
+          },
+          {
+              "authorId": "2716110",
+              "name": "J. K. Westlund"
+          }
+      ]
+  },
+  {
+      "refNo": 55,
+      "paperId": "831650b1f3d46f69f1c9e469faf94985861d47eb",
+      "title": "Effectiveness of Red-Light Running Countermeasures: A Systematic Review",
+      "authors": [
+          {
+              "authorId": "1380842827",
+              "name": "Sardar Elias"
+          },
+          {
+              "authorId": "3372144",
+              "name": "M. Ghafurian"
+          },
+          {
+              "authorId": "145434732",
+              "name": "S. Samuel"
+          }
+      ]
+  },
+  {
+      "refNo": 57,
+      "paperId": "17b279dda62e7509fa8fc81000030a08bdfcca92",
+      "title": "From \"nobody cares\" to \"way to go!\": A Design Framework for Social Sharing in Personal Informatics",
+      "authors": [
+          {
+              "authorId": "1897362",
+              "name": "Daniel A. Epstein"
+          },
+          {
+              "authorId": "74944022",
+              "name": "B. Jacobson"
+          },
+          {
+              "authorId": "145499200",
+              "name": "Elizabeth S. Bales"
+          },
+          {
+              "authorId": "144541497",
+              "name": "David W. Mcdonald"
+          },
+          {
+              "authorId": "6452115",
+              "name": "Sean A Munson"
+          }
+      ]
+  },
+  {
+      "refNo": 58,
+      "paperId": "1198220779b547f172cb8c51951546aaebbb3a61",
+      "title": "The Role of Learning Theory in Child-Computer Interaction - A Semi-Systematic Literature Review",
+      "authors": [
+          {
+              "authorId": "98771650",
+              "name": "E. Eriksson"
+          },
+          {
+              "authorId": "3440045",
+              "name": "G\u00f6k\u00e7e Elif Baykal"
+          },
+          {
+              "authorId": "1679770",
+              "name": "O. Torgersson"
+          }
+      ]
+  },
+  {
+      "refNo": 59,
+      "paperId": "2b50250b07632526a00142109e0aba3a11383563",
+      "title": "A Meta-Analysis of Human Personality and Robot Acceptance in Human-Robot Interaction",
+      "authors": [
+          {
+              "authorId": "150948029",
+              "name": "Connor Esterwood"
+          },
+          {
+              "authorId": "2089406079",
+              "name": "Kyle Essenmacher"
+          },
+          {
+              "authorId": "2144228867",
+              "name": "Han Yang"
+          },
+          {
+              "authorId": "2089554505",
+              "name": "Fanpan Zeng"
+          },
+          {
+              "authorId": "145543300",
+              "name": "L. Robert"
+          }
+      ]
+  },
+  {
+      "refNo": 74,
+      "paperId": "d66c8b50134400c6eac0146927c23e1ade8efb71",
+      "title": "All You Need is Love: Current Strategies of Mediating Intimate Relationships through Technology",
+      "authors": [
+          {
+              "authorId": "1679757",
+              "name": "Marc Hassenzahl"
+          },
+          {
+              "authorId": "2102811830",
+              "name": "Stephanie Heidecker"
+          },
+          {
+              "authorId": "1683208",
+              "name": "Kai Eckoldt"
+          },
+          {
+              "authorId": "1721639",
+              "name": "S. Diefenbach"
+          },
+          {
+              "authorId": "46612712",
+              "name": "Uwe Hillmann"
+          }
+      ]
+  },
+  {
+      "refNo": 80,
+      "paperId": "605812a3d81bea957a3053d4f157e55b4c8ff1eb",
+      "title": "Identifying Patterns in IDC Research: Technologies for Improving Children's Well-being Connected to Overweight Issues",
+      "authors": [
+          {
+              "authorId": "1405309317",
+              "name": "Marikken H\u00f8iseth"
+          },
+          {
+              "authorId": "2280077",
+              "name": "M. Mechelen"
+          }
+      ]
+  },
+  {
+      "refNo": 84,
+      "paperId": "12200ee28453f403d738990707933c11c64cac75",
+      "title": "Beyond Liability: Legal Issues of Human-Machine Interaction for Automated Vehicles",
+      "authors": [
+          {
+              "authorId": "26431323",
+              "name": "Michael Inners"
+          },
+          {
+              "authorId": "1693270",
+              "name": "A. Kun"
+          }
+      ]
+  },
+  {
+      "refNo": 87,
+      "paperId": "6dde2a27337285b6d658ae5b8e1cef24156957f7",
+      "title": "Affective Grounding in Human-Robot Interaction",
+      "authors": [
+          {
+              "authorId": "8240331",
+              "name": "Malte F. Jung"
+          }
+      ]
+  },
+  {
+      "refNo": 88,
+      "paperId": "ded50da74211d651fd6fa35b46c010ea8aef62d3",
+      "title": "Characterizing the Design Space of Rendered Robot Faces",
+      "authors": [
+          {
+              "authorId": "36104366",
+              "name": "Alisa Kalegina"
+          },
+          {
+              "authorId": "39449608",
+              "name": "G. Schroeder"
+          },
+          {
+              "authorId": "39880504",
+              "name": "A. Allchin"
+          },
+          {
+              "authorId": "36396438",
+              "name": "Keara Berlin"
+          },
+          {
+              "authorId": "35096370",
+              "name": "M. Cakmak"
+          }
+      ]
+  },
+  {
+      "refNo": 91,
+      "paperId": "4fc1b5ccc4d30f33e146c169132e2828551e438b",
+      "title": "Another decade of IDC research: examining and reflecting on values and ethics",
+      "authors": [
+          {
+              "authorId": "1929172",
+              "name": "Saba Kawas"
+          },
+          {
+              "authorId": "1996160841",
+              "name": "Ye Yuan"
+          },
+          {
+              "authorId": "1380230415",
+              "name": "Akeiylah Dewitt"
+          },
+          {
+              "authorId": null,
+              "name": "Qiao Jin"
+          },
+          {
+              "authorId": "143943824",
+              "name": "S. Kirchner"
+          },
+          {
+              "authorId": "1750919188",
+              "name": "Abigail Bilger"
+          },
+          {
+              "authorId": "2082838496",
+              "name": "Ethan Grantham"
+          },
+          {
+              "authorId": "1738606",
+              "name": "J. Kientz"
+          },
+          {
+              "authorId": "34956386",
+              "name": "A. Tartaro"
+          },
+          {
+              "authorId": "1744803",
+              "name": "S. Yarosh"
+          }
+      ]
+  },
+  {
+      "refNo": 111,
+      "paperId": "f57420a2013cec41db37f2c73549b0a0d45b771d",
+      "title": "Awareness Supporting Technologies used in Collaborative Systems: A Systematic Literature Review",
+      "authors": [
+          {
+              "authorId": "146815740",
+              "name": "Gustavo L\u00f3pez"
+          },
+          {
+              "authorId": "147315128",
+              "name": "Luis A. Guerrero"
+          }
+      ]
+  },
+  {
+      "refNo": 117,
+      "paperId": "9b8dbfe1e2c8a52307d8a2c20b65ba22e406c9ea",
+      "title": "What Do We Mean by \u201cAccessibility Research\u201d?: A Literature Survey of Accessibility Papers in CHI and ASSETS from 1994 to 2019",
+      "authors": [
+          {
+              "authorId": "91903310",
+              "name": "Kelly Avery Mack"
+          },
+          {
+              "authorId": "2075900057",
+              "name": "Emma J. McDonnell"
+          },
+          {
+              "authorId": "37883312",
+              "name": "D. Jain"
+          },
+          {
+              "authorId": "31860505",
+              "name": "Lucy Lu Wang"
+          },
+          {
+              "authorId": "145904884",
+              "name": "Jon E. Froehlich"
+          },
+          {
+              "authorId": "1689620",
+              "name": "Leah Findlater"
+          }
+      ]
+  },
+  {
+      "refNo": 120,
+      "paperId": "33e5b8b6c778527260f6e299f98e2a0c76e8f188",
+      "title": "What Makes a Dark Pattern... Dark?: Design Attributes, Normative Considerations, and Measurement Methods",
+      "authors": [
+          {
+              "authorId": "2101188",
+              "name": "Arunesh Mathur"
+          },
+          {
+              "authorId": "79109521",
+              "name": "Jonathan R. Mayer"
+          },
+          {
+              "authorId": "1391592724",
+              "name": "M. Kshirsagar"
+          }
+      ]
+  },
+  {
+      "refNo": 122,
+      "paperId": "cb75d1a91a47c0d2b7daa5db0d314723f55e8333",
+      "title": "A systematic review of quantitative studies on the enjoyment of digital entertainment games",
+      "authors": [
+          {
+              "authorId": "1960450",
+              "name": "Elisa D. Mekler"
+          },
+          {
+              "authorId": "38610469",
+              "name": "J. Bopp"
+          },
+          {
+              "authorId": "1908783",
+              "name": "Alexandre N. Tuch"
+          },
+          {
+              "authorId": "1767692",
+              "name": "K. Opwis"
+          }
+      ]
+  },
+  {
+      "refNo": 128,
+      "paperId": "a68b599c048bb6af699e3a38e0ae8290a9e8c669",
+      "title": "The Importance of Interruption Management for Usefulness and Acceptance of Automated Driving",
+      "authors": [
+          {
+              "authorId": "1724608",
+              "name": "Frederik Naujoks"
+          },
+          {
+              "authorId": "39975929",
+              "name": "Katharina Wiedemann"
+          },
+          {
+              "authorId": "8789004",
+              "name": "Nadja Sch\u00f6mig"
+          }
+      ]
+  },
+  {
+      "refNo": 130,
+      "paperId": "ef3f501cdfda14e54b6c22f3af3f8edc8a62f6f0",
+      "title": "Tangible autonomous interfaces (TAIs): exploring autonomous behaviours in TUIs",
+      "authors": [
+          {
+              "authorId": "2548821",
+              "name": "Diana Nowacka"
+          },
+          {
+              "authorId": "2064541382",
+              "name": "David S. Kirk"
+          }
+      ]
+  },
+  {
+      "refNo": 138,
+      "paperId": "551272724006de795d8c467e38a345b98d3a1848",
+      "title": "Fashion thinking: lessons from fashion and sustainable interaction design, concepts and issues",
+      "authors": [
+          {
+              "authorId": "2111415465",
+              "name": "Yue Pan"
+          },
+          {
+              "authorId": "1789346",
+              "name": "Eli Blevis"
+          }
+      ]
+  },
+  {
+      "refNo": 140,
+      "paperId": "82578e0891de531a3e023d1b95b4710febaa8068",
+      "title": "Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field",
+      "authors": [
+          {
+              "authorId": "50624238",
+              "name": "Jessica A. Pater"
+          },
+          {
+              "authorId": "50636096",
+              "name": "Amanda Coupe"
+          },
+          {
+              "authorId": "134667042",
+              "name": "Rachel Pfafman"
+          },
+          {
+              "authorId": "47683385",
+              "name": "Chanda Phelan"
+          },
+          {
+              "authorId": "1688145",
+              "name": "Tammy R Toscos"
+          },
+          {
+              "authorId": "145456801",
+              "name": "Maia L. Jacobs"
+          }
+      ]
+  },
+  {
+      "refNo": 142,
+      "paperId": "66f5fa8f7a576cce6014bcd44a2da31c276c1382",
+      "title": "A Bermuda Triangle?: A Review of Method Application and Triangulation in User Experience Evaluation",
+      "authors": [
+          {
+              "authorId": "2268786390",
+              "name": "Ingrid Pettersson"
+          },
+          {
+              "authorId": "2582689",
+              "name": "F. Lachner"
+          },
+          {
+              "authorId": "8791671",
+              "name": "Anna-Katharina Frison"
+          },
+          {
+              "authorId": "1766769",
+              "name": "A. Riener"
+          },
+          {
+              "authorId": "2253695509",
+              "name": "Andreas Butz"
+          }
+      ]
+  },
+  {
+      "refNo": 144,
+      "paperId": "141a02c0b5333b9f893723d2450fbd1ce01eb406",
+      "title": "Beyond energy monitors: interaction, energy, and emerging energy systems",
+      "authors": [
+          {
+              "authorId": "101520744",
+              "name": "James Pierce"
+          },
+          {
+              "authorId": "2749792",
+              "name": "E. Paulos"
+          }
+      ]
+  },
+  {
+      "refNo": 145,
+      "paperId": "56663aa977a74c18bc0e6b35e688e114e57739bf",
+      "title": "Adolescent Online Safety: Moving Beyond Formative Evaluations to Designing Solutions for the Future",
+      "authors": [
+          {
+              "authorId": "144254590",
+              "name": "A. Pinter"
+          },
+          {
+              "authorId": "34966245",
+              "name": "P. Wisniewski"
+          },
+          {
+              "authorId": "46485370",
+              "name": "Heng Xu"
+          },
+          {
+              "authorId": "1715072",
+              "name": "M. Rosson"
+          },
+          {
+              "authorId": "32795765",
+              "name": "Jack M. Carroll"
+          }
+      ]
+  },
+  {
+      "refNo": 148,
+      "paperId": "ddfaf2c88a6a8b4723423cbde2557db3ecffc797",
+      "title": "eTextiles: reviewing a practice through its tool/kits",
+      "authors": [
+          {
+              "authorId": "2082917",
+              "name": "I. Posch"
+          },
+          {
+              "authorId": "2797016",
+              "name": "L. Stark"
+          },
+          {
+              "authorId": "145373673",
+              "name": "G. Fitzpatrick"
+          }
+      ]
+  },
+  {
+      "refNo": 152,
+      "paperId": "012f534785bac4c0bd9436fbc2db4e249422a828",
+      "title": "HCI meets Material Science: A Literature Review of Morphing Materials for the Design of Shape-Changing Interfaces",
+      "authors": [
+          {
+              "authorId": "40961352",
+              "name": "Isabel P. S. Qamar"
+          },
+          {
+              "authorId": "153060469",
+              "name": "R. Groh"
+          },
+          {
+              "authorId": "1413455957",
+              "name": "David Holman"
+          },
+          {
+              "authorId": "3219180",
+              "name": "A. Roudaut"
+          }
+      ]
+  },
+  {
+      "refNo": 155,
+      "paperId": "678a4ad581c0f08d85367efa783fc23ce4a74bc8",
+      "title": "Wizard of Awwws: Exploring Psychological Impact on the Researchers in Social HRI Experiments",
+      "authors": [
+          {
+              "authorId": "2716418",
+              "name": "Daniel J. Rea"
+          },
+          {
+              "authorId": "2402812",
+              "name": "Denise Y. Geiskkovitch"
+          },
+          {
+              "authorId": "144850327",
+              "name": "J. Young"
+          }
+      ]
+  },
+  {
+      "refNo": 157,
+      "paperId": "3ae6087f4963fe6f51becabce687d8ee1dc2994e",
+      "title": "Evaluating Creativity Support Tools in HCI Research",
+      "authors": [
+          {
+              "authorId": "34351346",
+              "name": "Christian Remy"
+          },
+          {
+              "authorId": "40976735",
+              "name": "Lindsay MacDonald Vermeulen"
+          },
+          {
+              "authorId": "40975312",
+              "name": "J. Frich"
+          },
+          {
+              "authorId": "2536009",
+              "name": "M. M. Biskjaer"
+          },
+          {
+              "authorId": "31653467",
+              "name": "P. Dalsgaard"
+          }
+      ]
+  },
+  {
+      "refNo": 163,
+      "paperId": "f60a4c6d798aeae879f05ab5f0461ea64d9607a1",
+      "title": "A Literature Review of Quantitative Persona Creation",
+      "authors": [
+          {
+              "authorId": "2734912",
+              "name": "Joni O. Salminen"
+          },
+          {
+              "authorId": "1666242842",
+              "name": "Kathleen W. Guan"
+          },
+          {
+              "authorId": "1861541",
+              "name": "Soon-Gyo Jung"
+          },
+          {
+              "authorId": "143996866",
+              "name": "S. A. Chowdhury"
+          },
+          {
+              "authorId": "144715575",
+              "name": "B. Jansen"
+          }
+      ]
+  },
+  {
+      "refNo": 165,
+      "paperId": "55f64b8e83266f8aef66090c2f952ca8964b5463",
+      "title": "HCI and Affective Health: Taking stock of a decade of studies and charting future research directions",
+      "authors": [
+          {
+              "authorId": "37224385",
+              "name": "Pedro Sanches"
+          },
+          {
+              "authorId": "114744541",
+              "name": "Axel Janson"
+          },
+          {
+              "authorId": "8703400",
+              "name": "Pavel Karpashevich"
+          },
+          {
+              "authorId": "39722906",
+              "name": "Camille Nadal"
+          },
+          {
+              "authorId": "13383143",
+              "name": "Chengcheng Qu"
+          },
+          {
+              "authorId": "3409795",
+              "name": "Claudia Daud\u00e9n Roquet"
+          },
+          {
+              "authorId": "2257111340",
+              "name": "Muhammad Umair"
+          },
+          {
+              "authorId": "7735511",
+              "name": "Charles Windlin"
+          },
+          {
+              "authorId": "2659843",
+              "name": "Gavin Doherty"
+          },
+          {
+              "authorId": "1724769",
+              "name": "K. H\u00f6\u00f6k"
+          },
+          {
+              "authorId": "2175489",
+              "name": "C. Sas"
+          }
+      ]
+  },
+  {
+      "refNo": 166,
+      "paperId": "e427cd7753c23a20e5f5c8f800e7582d46a78d54",
+      "title": "A Human-Centered Review of Algorithms used within the U.S. Child Welfare System",
+      "authors": [
+          {
+              "authorId": "117108642",
+              "name": "Devansh Saxena"
+          },
+          {
+              "authorId": "1402258829",
+              "name": "Karla A. Badillo-Urquiola"
+          },
+          {
+              "authorId": "34966245",
+              "name": "P. Wisniewski"
+          },
+          {
+              "authorId": "2345714",
+              "name": "Shion Guha"
+          }
+      ]
+  },
+  {
+      "refNo": 171,
+      "paperId": "82032a76f4b3016e2b8a3ac8783e8b47922832a5",
+      "title": "Four Years in Review: Statistical Practices of Likert Scales in Human-Robot Interaction Studies",
+      "authors": [
+          {
+              "authorId": "79871100",
+              "name": "Mariah L. Schrum"
+          },
+          {
+              "authorId": "2109890387",
+              "name": "Michael Johnson"
+          },
+          {
+              "authorId": "1473079831",
+              "name": "Muyleng Ghuy"
+          },
+          {
+              "authorId": "145223968",
+              "name": "M. Gombolay"
+          }
+      ]
+  },
+  {
+      "refNo": 176,
+      "paperId": "6d5b36d2fb0c4dc5e9415746dcb1af03a098e53c",
+      "title": "What is Mixed Reality?",
+      "authors": [
+          {
+              "authorId": "34767697",
+              "name": "Maximilian Speicher"
+          },
+          {
+              "authorId": "153822904",
+              "name": "Brian D. Hall"
+          },
+          {
+              "authorId": "2262595",
+              "name": "Michael Nebeling"
+          }
+      ]
+  },
+  {
+      "refNo": 178,
+      "paperId": "4c187973622605840aab1402c06dd7faeb615016",
+      "title": "Designing for Care Ecosystems: a Literature Review of Technologies for Children with ADHD",
+      "authors": [
+          {
+              "authorId": "3427319",
+              "name": "Evropi Stefanidi"
+          },
+          {
+              "authorId": "2148969764",
+              "name": "Johannes Sch\u00f6ning"
+          },
+          {
+              "authorId": "77432106",
+              "name": "S. Feger"
+          },
+          {
+              "authorId": "143679313",
+              "name": "P. Marshall"
+          },
+          {
+              "authorId": "1685816",
+              "name": "Y. Rogers"
+          },
+          {
+              "authorId": "1999052",
+              "name": "Jasmin Niess"
+          }
+      ]
+  },
+  {
+      "refNo": 196,
+      "paperId": "57eb77dc7cf3c13f8eb619231a76817117ac08e4",
+      "title": "The Emergence of EyePlay: A Survey of Eye Interaction in Games",
+      "authors": [
+          {
+              "authorId": "2520424",
+              "name": "Eduardo Velloso"
+          },
+          {
+              "authorId": "3879614",
+              "name": "M. Carter"
+          }
+      ]
+  },
+  {
+      "refNo": 200,
+      "paperId": "368d1835c71a41bc85ef8379a3b932fc190bd658",
+      "title": "What is \"intelligent\" in intelligent user interfaces?: a meta-analysis of 25 years of IUI",
+      "authors": [
+          {
+              "authorId": "3301571",
+              "name": "S. V\u00f6lkel"
+          },
+          {
+              "authorId": "2898519",
+              "name": "Christina Schneegass"
+          },
+          {
+              "authorId": "3396220",
+              "name": "Malin Eiband"
+          },
+          {
+              "authorId": "1768653",
+              "name": "Daniel Buschek"
+          }
+      ]
+  },
+  {
+      "refNo": 201,
+      "paperId": "43523ccfa62ff41bfad26cb9b786c0806bf77097",
+      "title": "Statistical Significance Testing at CHI PLAY: Challenges and Opportunities for More Transparency",
+      "authors": [
+          {
+              "authorId": "1419507031",
+              "name": "Jan B. Vornhagen"
+          },
+          {
+              "authorId": "47649577",
+              "name": "April Tyack"
+          },
+          {
+              "authorId": "1960450",
+              "name": "Elisa D. Mekler"
+          }
+      ]
+  },
+  {
+      "refNo": 204,
+      "paperId": "237831f1ec93e537ca769091ba40df1c945281f8",
+      "title": "Self disclosure on computer forms: meta-analysis and implications",
+      "authors": [
+          {
+              "authorId": "2453684",
+              "name": "S. Weisband"
+          },
+          {
+              "authorId": "47198673",
+              "name": "S. Kiesler"
+          }
+      ]
+  },
+  {
+      "refNo": 206,
+      "paperId": "46661e895587a3d862fc0dc216b522e8c2d3fcfb",
+      "title": "InCarAR: A Design Space Towards 3D Augmented Reality Applications in Vehicles",
+      "authors": [
+          {
+              "authorId": "1942104376",
+              "name": "Gesa Wiegand"
+          },
+          {
+              "authorId": "49221314",
+              "name": "Christian Mai"
+          },
+          {
+              "authorId": "52161927",
+              "name": "K. Holl\u00e4nder"
+          },
+          {
+              "authorId": "46751563",
+              "name": "H. Hussmann"
+          }
+      ]
+  },
+  {
+      "refNo": 210,
+      "paperId": "2de182250dc75e3cd3b717b5db38de18ca228bba",
+      "title": "Mapping Machine Learning Advances from HCI Research to Reveal Starting Places for Design Innovation",
+      "authors": [
+          {
+              "authorId": "2117860470",
+              "name": "Qian Yang"
+          },
+          {
+              "authorId": "2997335",
+              "name": "Nikola Banovic"
+          },
+          {
+              "authorId": "145308025",
+              "name": "J. Zimmerman"
+          }
+      ]
+  },
+  {
+      "refNo": 214,
+      "paperId": "abb1d3236512bdeccf9f461fec927b4a67d9a124",
+      "title": "Teens, Parents, and Financial Literacy",
+      "authors": [
+          {
+              "authorId": "145308025",
+              "name": "J. Zimmerman"
+          },
+          {
+              "authorId": "145174228",
+              "name": "J. Forlizzi"
+          },
+          {
+              "authorId": "3062546",
+              "name": "Justin Finkenaur"
+          },
+          {
+              "authorId": "3409662",
+              "name": "Sarah Amick"
+          },
+          {
+              "authorId": "2110978947",
+              "name": "J. Ahn"
+          },
+          {
+              "authorId": "3409807",
+              "name": "Nanako Era"
+          },
+          {
+              "authorId": "32813809",
+              "name": "Owen Tong"
+          }
+      ]
+  },
+  {
+      "refNo": 24,
+      "paperId": "59f6fd02689cd06d3e648173ca36d093cb4d2a72",
+      "title": "Voices of the Social Sector",
+      "authors": [
+          {
+              "authorId": "9039303",
+              "name": "Chris Bopp"
+          },
+          {
+              "authorId": "1805040",
+              "name": "A. Voida"
+          }
+      ]
+  },
+  {
+      "refNo": 64,
+      "paperId": "1f9206519f2382e3b72415f17a9dcaf9e07b4045",
+      "title": "The design of eco-feedback technology",
+      "authors": [
+          {
+              "authorId": "145904884",
+              "name": "Jon E. Froehlich"
+          },
+          {
+              "authorId": "1689620",
+              "name": "Leah Findlater"
+          },
+          {
+              "authorId": "9522307",
+              "name": "J. Landay"
+          }
+      ]
+  },
+  {
+      "refNo": 81,
+      "paperId": "3e34886a913b4b1b32a0ad0c257044eac9bffa9e",
+      "title": "Technology Acceptance and User Experience",
+      "authors": [
+          {
+              "authorId": "1679367",
+              "name": "K. Hornb\u00e6k"
+          },
+          {
+              "authorId": "1786701",
+              "name": "M. Hertzum"
+          }
+      ]
+  },
+  {
+      "refNo": 186,
+      "paperId": "acd9b47a569ab80ac13125fd3fd1701728fd08a0",
+      "title": "A Review & Analysis of Mindfulness Research in HCI: Framing Current Lines of Research and Future Opportunities",
+      "authors": [
+          {
+              "authorId": "8140378",
+              "name": "Nada Terzimehic"
+          },
+          {
+              "authorId": "1922701",
+              "name": "Renate H\u00e4uslschmid"
+          },
+          {
+              "authorId": "46751563",
+              "name": "H. Hussmann"
+          },
+          {
+              "authorId": "2284695",
+              "name": "M. Schraefel"
+          }
+      ]
+  }
+]

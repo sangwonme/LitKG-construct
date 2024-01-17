@@ -7,7 +7,7 @@ from graph_constructor import GraphConstructor
 from zeroshot_classifier import ZeroshotClassifier
 
 # Parameters
-PAPER_NUM = 30
+PAPER_NUM = 99999
 CATEGORIES = {
     'Background': 'brief introduction to the motivation and point of departure',
     'Objective': 'what is expected to achieve by the study. It can be a survey or a review for a specific research topic, a significant scientific or engineering problem, or a demonstration for research theories or principles.',
@@ -16,7 +16,8 @@ CATEGORIES = {
 }
 
 # File Path
-DATA_PATH = './data/data.json'
+FILE_NAME = 'seed_data'
+DATA_PATH = f'./data/{FILE_NAME}.json'
 
 # Load Paper data
 with open(DATA_PATH, encoding='utf-8') as file:
@@ -30,12 +31,14 @@ abstract_data = [data[i]['abstract'] if data[i]['abstract'] else '' for i in ran
 abstract_data_filtered = [abstract for abstract in abstract_data if len(abstract) <= 1200]
 
 # Classifying categories for each sentences
-# with open('cache/classification_result.pickle', 'rb') as file:
-#     classification_result = pickle.load(file)
-classifier = ZeroshotClassifier(categories=CATEGORIES, abstracts=abstract_data)
-classification_result = classifier.classification()
-with open('cache/classification_result.pickle', 'wb') as file:
-    pickle.dump(classification_result, file)
+try:
+    with open(f'cache/{FILE_NAME}_classification_result.pickle', 'rb') as file:
+        classification_result = pickle.load(file)
+except:
+    classifier = ZeroshotClassifier(categories=CATEGORIES, abstracts=abstract_data)
+    classification_result = classifier.classification()
+    with open(f'cache/{FILE_NAME}_classification_result.pickle', 'wb') as file:
+        pickle.dump(classification_result, file)
 print('Classification is done!')
 
 # Extract Knowledge Elements and its location
@@ -59,6 +62,8 @@ print('BERT Embedding is done!')
 # Graph Construction with calculating links
 constructor = GraphConstructor(knowledge_elements)
 graph = constructor.graph
+with open(f'cache/{FILE_NAME}_graph.pickle', 'wb') as file:
+    pickle.dump(graph, file)
 print('Graph Construction is done!')
 print('---------------------------------')
 print(f'Nodes: {len(graph.nodes)}')
@@ -96,6 +101,8 @@ def find_papers(keyword):
         if title not in titles:
             titles.append(title)
     return titles
+
+import pdb; pdb.set_trace()
 
 # interactive query
 while True:
