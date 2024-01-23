@@ -26,6 +26,10 @@ data = data[:min(PAPER_NUM, len(data))]
 
 # Concat All Abstracts
 abstract_data = [data[i]['abstract'] if data[i]['abstract'] else '' for i in range(len(data))]
+with open(f'cache/{FILE_NAME}_abstract.pickle', 'wb') as file:
+    pickle.dump(abstract_data, file)
+
+import pdb; pdb.set_trace()
 
 # HOTFIX: filter abstract_data with proper text length
 abstract_data_filtered = [abstract for abstract in abstract_data if len(abstract) <= 1200]
@@ -77,6 +81,10 @@ for category in CATEGORIES.keys():
     filtered_nodes = [node for node, attrs in graph.nodes(data=True) if category in attrs.get('category', [])]
     # Creating a subgraph with the filtered nodes
     layered_graph[category] = graph.subgraph(filtered_nodes)
+
+with open(f'cache/{FILE_NAME}_layeredgraph.pickle', 'wb') as file:
+    pickle.dump(layered_graph, file)
+
 
 # graph query
 def query(keyword, target_network, top_k=7):
